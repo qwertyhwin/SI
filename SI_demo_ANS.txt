@@ -1,0 +1,36 @@
+/* Problem 1 */
+Infinite loop
+Output would be integer division by 2 (would round down to the nearest integer)
+
+How would you make it so that the loop doesn't result in an infinite loop?
+Doesn't do integer division?
+
+ANSWER: Change the condition in the for loop to be total > 0 without the =.
+Change total to be a double.
+
+/* Problem 2 */
+Not infinite loop
+Output would be only one line at the end because if you do a for loop with
+no brackets, only the first line directly below the for is considered in the 
+loop.
+
+What would cur and sum be in the output?
+
+ANSWER: cur = 5 (not 4! cur is incremented to 5 to fail the last check and 
+end the loop), sum = 0+1+2+3+4 = 10
+
+/* Problem 3 */
+Infinite loop
+Output would be the same line over and over forever.
+
+What would this line be?
+
+ANSWER: "i = 0"
+
+/* Problem 4 */
+Not infinite loop
+Output would be "curr = 20", "curr = 19", ... , "curr = 0"
+
+/* Problem 5 */
+Not infinite loop
+There would be no output.
