@@ -1,5 +1,6 @@
 /* TODO: Determine if each loop would cause an infinite loop or not, 
-and what the output would look like. */
+and what the output would look like. Questions adapted from 
+Robby Stigler. */
 
 /* Problem 1 */
 for (int total = 19; total >= 0; total = total / 2) {
@@ -24,7 +25,7 @@ for (int curr = 20; curr >= 0; curr--){
 }
 
 /* Problem 5 */
-for (int curr = 0; curr >= 0; curr++){
+for (int curr = 0; curr < 0; curr++){
 	System.out.println("curr = " + curr);
 }
 

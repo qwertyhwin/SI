@@ -9,6 +9,7 @@ ANSWER: Change the condition in the for loop to be total > 0 without the =.
 Change total to be a double.
 
 /* Problem 2 */
+Wouldn't compile (int cur is only accessible within the scope of the loop)
 Not infinite loop
 Output would be only one line at the end because if you do a for loop with
 no brackets, only the first line directly below the for is considered in the 
