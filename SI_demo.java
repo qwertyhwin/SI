@@ -29,5 +29,4 @@ for (int curr = 0; curr < 0; curr++){
 	System.out.println("curr = " + curr);
 }
 
-
 /* ... more problems relating to while loops and do-while loops */

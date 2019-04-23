@@ -8,6 +8,7 @@ Doesn't do integer division?
 ANSWER: Change the condition in the for loop to be total > 0 without the =.
 Change total to be a double.
 
+
 /* Problem 2 */
 Wouldn't compile (int cur is only accessible within the scope of the loop)
 Not infinite loop
@@ -15,10 +16,14 @@ Output would be only one line at the end because if you do a for loop with
 no brackets, only the first line directly below the for is considered in the 
 loop.
 
+How would you make this code compile?
 What would cur and sum be in the output?
 
-ANSWER: cur = 5 (not 4! cur is incremented to 5 to fail the last check and 
+ANSWER: 
+Declare int cur outside of and before the loop.
+cur = 5 (not 4! cur is incremented to 5 to fail the last check and 
 end the loop), sum = 0+1+2+3+4 = 10
+
 
 /* Problem 3 */
 Infinite loop
@@ -28,9 +33,11 @@ What would this line be?
 
 ANSWER: "i = 0"
 
+
 /* Problem 4 */
 Not infinite loop
 Output would be "curr = 20", "curr = 19", ... , "curr = 0"
+
 
 /* Problem 5 */
 Not infinite loop
