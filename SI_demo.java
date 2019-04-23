@@ -1,5 +1,5 @@
-TODO: Determine if each loop would cause an infinite loop or not, and what
-the output would look like.
+/* TODO: Determine if each loop would cause an infinite loop or not, 
+and what the output would look like. */
 
 /* Problem 1 */
 for (int total = 19; total >= 0; total = total / 2) {
@@ -29,4 +29,4 @@ for (int curr = 0; curr >= 0; curr++){
 }
 
 
-... more problems relating to while loops and do-while loops
+/* ... more problems relating to while loops and do-while loops */
